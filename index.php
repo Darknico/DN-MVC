@@ -44,7 +44,9 @@
 	/* Load template */
 	$registry->template = new template($registry);
 	
-	/* Load correct controller */
-	$registry->router->loader();
+	/* Load masterpage */
+	include_once 'views/masterpage.php'
 
+	/* Load correct controller */
+	//$registry->router->loader();
 ?>
