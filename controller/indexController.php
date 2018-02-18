@@ -4,33 +4,32 @@
 
 class indexController extends baseController
 {
-
     /* Implement index controller */
     public function index()
     {
-
         /* Set all template vars, this will be used in the view */
-        $this->registry->template->welcome = $this->registry->translationEngine->GetTranslate('dn_testTag'); 
+        $this->registry->template->welcome = $this->registry->translationEngine->GetTranslate('dn_testTag');
 
         /* This instruction allows the view to execute modules */
         $this->registry->template->modules = $this->registry->modules;
 
-        /* Show the view */
-        $this->registry->template->show('index');
-
+        /* Show the current view */
+        $this->renderView();
     }
 
     /* Implement test controller */
     public function test()
     {
-        /* Set all template vars, this will be used in the view */
-        $this->registry->template->welcome = $this->registry->translationEngine->GetTranslate('dn_testTag', true); 
+        $this->registry->template->name = 'test';
+        /* Show the current view */
+        $this->renderView();
+    }
 
-        /* This instruction allows the view to execute modules */
-        $this->registry->template->modules = $this->registry->modules;
-
-        /* Show the view */
-        $this->registry->template->show('index');
-
+    /* Implement test2 controller */
+    public function test2()
+    {
+        $this->registry->template->name = 'test2';
+        /* Show the current view */
+        $this->registry->template->showView('index/test');
     }
 }

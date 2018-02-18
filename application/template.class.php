@@ -16,8 +16,29 @@ class template{
 	
 	/* This function load and display the correct view */
 	
-	public function show($name){
+	public function showView($name){
 		$path = __SITE_PATH . '/views/' . $name . '.php';
+		
+		/* if file does not exists throw an exception  */
+		if(file_exists($path) == false){
+			throw new Exception ('Template not found in: ' . $path);
+		}
+		
+		/* load all vars to pass to the view */
+		foreach($this->vars as $key => $value){
+			$$key = $value;	
+		}
+		
+		/* show the view */
+		include ($path);
+	}
+
+	public function showCurrentView($current){
+
+		$controller = $current->controller;
+		$action = $current->action;
+
+		$path = __SITE_PATH . '/views/' . $controller . '/' . $action . '.php';
 		
 		/* if file does not exists throw an exception  */
 		if(file_exists($path) == false){
