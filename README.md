@@ -7,6 +7,6 @@ I forked https://github.com/elrod/php-easyMVC (thanks elrod) for study and imple
 
 Changelog
 ==============
-1.0 (18-02-2018)
+0.1.0 (18-02-2018)
 - My first personal version, with new view and translation engine
 
