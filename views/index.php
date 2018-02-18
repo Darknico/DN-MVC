@@ -1,6 +1,7 @@
 
 	<h1><?php echo $welcome; ?></h1>
 	<br/>
+	<h2><?php echo $translator->GetTranslate('dn_testTagInView'); ?></h2>
 	<p class="box">
 	<!-- Call a module with no args -->
 	<?php echo $modules->execute('example'); ?>

@@ -8,6 +8,7 @@ abstract class baseController{
 	
 	function __construct($registry){
 		$this->registry = $registry;	
+		$this->registry->template->translator = $this->registry->translationEngine;
 	}
 	
 	/* all controllers MUST implement the index method */

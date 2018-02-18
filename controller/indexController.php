@@ -10,7 +10,7 @@ class indexController extends baseController
     {
 
         /* Set all template vars, this will be used in the view */
-        $this->registry->template->welcome = $this->registry->translationEngine->get_translation('index', 'index', 'welcome');
+        $this->registry->template->welcome = $this->registry->translationEngine->GetTranslate('dn_testTag'); 
 
         /* This instruction allows the view to execute modules */
         $this->registry->template->modules = $this->registry->modules;
@@ -24,7 +24,7 @@ class indexController extends baseController
     public function test()
     {
         /* Set all template vars, this will be used in the view */
-        $this->registry->template->welcome = $this->registry->translationEngine->get_translation('test', 'index', 'welcome');
+        $this->registry->template->welcome = $this->registry->translationEngine->GetTranslate('dn_testTag', true); 
 
         /* This instruction allows the view to execute modules */
         $this->registry->template->modules = $this->registry->modules;

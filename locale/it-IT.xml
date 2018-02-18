@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Controllers -->
-<controllers>
-	<controller key="index">
-		<!-- Actions -->
-		<actions>
-			<action key="index">
-				<texts>
-					<!-- single key translation -->
-					<text key="welcome">Benvenuti su php-easyMVC Framework</text>
-				</texts>
-			</action>
-		</actions>
-	</controller>
-	<controller key="test">
-		<!-- Actions -->
-		<actions>
-			<action key="index">
-				<texts>
-					<!-- single key translation -->
-					<text key="welcome">Benvenuti su php-easyMVC Framework test</text>
-				</texts>
-			</action>
-		</actions>
-	</controller>
-</controllers>
+<translations>
+	<words>
+		<word tag="dn_testTag" text="Test Tag" abbr="T.T." />
+		<word tag="dn_testTagInView" text="Test Tag in View" abbr="T.T.v." />
+	</words>
+</translations>
