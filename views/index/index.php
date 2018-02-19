@@ -1,4 +1,4 @@
-
+<?php if (!defined("DN-MVC")) die("Hacking..."); ?>
 	<h1><?php echo $welcome; ?></h1>
 	<br/>
 	<h2><?php echo $translator->GetTranslate('dn_testTagInView'); ?></h2>

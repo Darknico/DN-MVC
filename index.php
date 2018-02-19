@@ -1,5 +1,14 @@
 <?php
-	/* This is the website entry point*/
+	/*
+	+-------------------------------------------
+	|   DN-MVC
+	|   ========================================
+	|   by Darknico
+	|   http://www.darknico.com
+	--------------------------------------------
+	*/
+	
+	define ("DN-MVC", 1);
 	
 	/* Display errors */
 

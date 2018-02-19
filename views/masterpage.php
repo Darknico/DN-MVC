@@ -1,3 +1,4 @@
+<?php if (!defined("DN-MVC")) die("Hacking..."); ?>
 <!DOCTYPE html>
 <html>
 <head>
