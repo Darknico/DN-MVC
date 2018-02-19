@@ -9,4 +9,5 @@ Changelog
 ==============
 0.1.0 (18-02-2018)
 - My first personal version, with new view and translation engine
+- More info in [CHANGELOG.txt](CHANGELOG.txt)
 

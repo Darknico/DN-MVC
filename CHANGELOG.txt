@@ -1,5 +1,13 @@
 ==== DN-MVC Changelog ====
 
+==== version: 0.1.0 - 19-02-2018 ====
+
+- Added simple security
+- Change masterpage
+- Update logo
+- new error page manage
+- Change parse url to check controller and action
+
 ==== version: 0.1.0 - 18-02-2018 ====
 
 - RELEASE: first DN-MVC release, fork from php-easysMVC (https://github.com/elrod/php-easyMVC)
