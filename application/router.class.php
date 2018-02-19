@@ -58,8 +58,8 @@ class router{
 	
 	/* This is a private method used to parse the URL and load all needed vars */
 	private function getController(){
-		// check if is set $_GET['rt']
-		$route = (empty($_GET['rt']) ? '' : $_GET['rt']);
+		// check if is set $_GET['action']
+		$route = (empty($_GET['action']) ? '' : $_GET['action']);
 		
 		if(empty($route)){
 			
@@ -68,7 +68,7 @@ class router{
 		}
 		else{
 			
-			$parts = explode('/', $route);	// Explode the url in part separated by the '/' char
+			$parts = explode(';', $route);	// Explode the url in part separated by the '/' char
 			$this->controller = $parts[0];  // The first part is the controller name
 			if(isset($parts[1])){
 				$this->action = $parts[1];	// The second part is the action name	
