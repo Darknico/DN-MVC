@@ -1,20 +1,11 @@
-<!-- This is the default home page -->
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
 	<link rel="stylesheet" href="styles/main.css" type="text/css" />
-	<title>php-easyMVC - TEST</title>
+	<title><?php echo $site_name ?></title>
 </head>
 <body>
-
-	<img src="img/logo.png" alt="Framework Logo" />
-	<br/>
-
-<?php
-/* Load correct controller */
-$registry->router->loader();
-?>
+	<img src="img/logo.png" alt="DN-MVC Logo" />
+	<?php $registry->router->loader(); ?>
 </body>
 </html>

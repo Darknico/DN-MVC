@@ -7,14 +7,20 @@
 	 * falls back to en-US.xml, use the keyword 'disabled' to disable the translationEngine  */
 	$language = 'auto';
 
+
+	########## Directories/Files ##########
+	$site_name = 'DN-MVC';
+	$site_url = 'http://localhost/DN-MVC';
+	$site_desc = ''; // default description
+
 	/* Database Configuration */
 	
 	$dbms = 'mysql';				// used DBMS (used to load correct driver)
 	
 	$dbhost = 'localhost';			// DBMS hostname
 	$dbuser = 'root';				// DBMS username
-	$dbpass = 'root';				// DBMS password
-	$dbname = 'test';				// Database Name
+	$dbpass = '';					// DBMS password
+	$dbname = 'dn_mvc';				// Database Name
 	$dbport = NULL;					// DBMS port
 	$dbsocket = NULL;				// DBMS socket
 	
