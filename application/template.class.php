@@ -42,7 +42,9 @@ class template{
 		
 		/* if file does not exists throw an exception  */
 		if(file_exists($path) == false){
-			throw new Exception ('Template not found in: ' . $path);
+			//throw new Exception ('Template not found in: ' . $path);
+			$this->showView('error/error404');
+			exit;
 		}
 		
 		/* load all vars to pass to the view */

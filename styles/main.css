@@ -38,3 +38,8 @@ div#footer p.left{
 div#footer p.right{
 	float:right;
 }
+
+/* Error Page */
+div#dn-errorPage {
+	color:red;
+}

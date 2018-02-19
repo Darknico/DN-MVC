@@ -3,5 +3,8 @@
 	<words>
 		<word tag="dn_testTag" text="Test Tag" abbr="T.T." />
 		<word tag="dn_testTagInView" text="Test Tag in View" abbr="T.T.v." />
+		<!-- Error -->
+		<word tag="dn_error" text="Errore!" abbr="" />
+		<word tag="dn_error_404" text="Errore! Pagina non trovata!" abbr="" />
 	</words>
 </translations>

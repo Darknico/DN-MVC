@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <translations>
 	<words>
-		<word tag="dn_testTag" text="Test Tag EN" abbr="T.T. EN" />
+		<word tag="dn_testTag" text="Test Tag EN" abbr="T.T." />
+		<word tag="dn_testTagInView" text="Test Tag in View En" abbr="T.T.v." />
+		<!-- Error -->
+		<word tag="dn_error" text="Error!" abbr="" />
+		<word tag="dn_error_404" text="Error! Page not found!" abbr="" />
 	</words>
 </translations>
