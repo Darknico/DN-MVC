@@ -47,7 +47,8 @@ class router{
 		
 		// Load if the selected action is callable, otherwise, load the index action by default
 		if(is_callable(array($controller, $this->action)) == false){
-			$action = 'index';	// di default chiamo index come action	
+			$action = 'index';	// default, call index
+			$this->action = $action; // assign index for route action
 		}
 		else{
 			$action = $this->action;	

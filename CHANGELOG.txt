@@ -1,10 +1,23 @@
-==== DN-MVC Changelog ====
+===================================
+==== DN-MVC =======================
+==== Start Develop: 17-02-2018 ====
+==== Fork from php-easyMVC ========
+==== License: GPLv3 ===============
+===================================
 
-==== version: 0.1.0 - 20-02-2018 ====
+=========================================================================================================
 
+===================
+==== CHANGELOG ====
+===================
+
+
+==== 20-02-2018 ====
+
+- Fixed regression in view - if view not exist, call the index action
 - Manage DB Connection (mysql) and test, query inline
 
-==== version: 0.1.0 - 19-02-2018 ====
+==== 19-02-2018 ====
 
 - Added simple security
 - Change masterpage
@@ -12,6 +25,8 @@
 - new error page manage
 - Change parse url to check controller and action
 
+=====================================
 ==== version: 0.1.0 - 18-02-2018 ====
+=====================================
 
 - RELEASE: first DN-MVC release, fork from php-easysMVC (https://github.com/elrod/php-easyMVC)
