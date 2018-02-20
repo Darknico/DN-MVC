@@ -32,4 +32,17 @@ class indexController extends baseController
         /* Show the current view */
         $this->registry->template->showView('index/test');
     }
+
+    /* Implement test controller */
+    public function testDB()
+    {
+        $query = "SELECT * FROM test";
+        $this->registry->template->dbArray = $this->dbResultArray($query);
+        $this->registry->template->dbObject = $this->dbResultObject($query);
+        $this->registry->template->dbRowCount = $this->dbResultCount($query);
+
+
+        /* Show the current view */
+        $this->renderView();
+    }
 }

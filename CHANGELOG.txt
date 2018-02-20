@@ -1,5 +1,9 @@
 ==== DN-MVC Changelog ====
 
+==== version: 0.1.0 - 20-02-2018 ====
+
+- Manage DB Connection (mysql) and test, query inline
+
 ==== version: 0.1.0 - 19-02-2018 ====
 
 - Added simple security
