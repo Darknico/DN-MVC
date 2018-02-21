@@ -35,8 +35,9 @@ class router{
 		$this->getController();	// Look for correct controller
 		
 		if(is_readable($this->file) == false){
-			$this->file = $this->path . '/error404.php';	// File Not Found
-			$this->controller = 'error404';				// Load default File Not Found Controller
+			$this->file = $this->path . '/errorController.php';	
+			$this->controller = 'error';				// Load default Error Controller
+			$this->action = 'error404'; // File Not Found
 		}
 		
 		include $this->file;		// Load the controller
