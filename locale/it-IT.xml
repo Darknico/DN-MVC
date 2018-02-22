@@ -2,6 +2,7 @@
 <translations>
 	<words>
 		<word tag="dn_testTag" text="Test Tag" abbr="T.T." />
+		<word tag="dn_testTag3" text="Test Tag3" abbr="T.T.3" />
 		<word tag="dn_testTagInView" text="Test Tag in View" abbr="T.T.v." />
 		<!-- Error -->
 		<word tag="dn_error" text="Errore!" abbr="" />

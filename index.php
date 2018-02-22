@@ -47,7 +47,7 @@
 	
 	/* Load translationEngine */
 	if($language != "disabled"){
-		$registry->translationEngine = new translationEngine($language);
+		$registry->translationEngine = new translationEngine($language, $languageFallback, $enableWordFallback);
 	}
 	
 	/* Load template */

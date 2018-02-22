@@ -20,7 +20,8 @@ class indexController extends baseController
     /* Implement test controller */
     public function test()
     {
-        $this->registry->template->name = 'test';
+        $this->registry->template->name = $this->registry->translationEngine->GetTranslate('dn_testTag');
+        
         /* Show the current view */
         $this->renderView();
     }

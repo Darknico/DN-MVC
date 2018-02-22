@@ -11,6 +11,10 @@
 ==== CHANGELOG ====
 ===================
 
+==== 22-02-2018 ====
+
+- Manage new fallback in lang, translation and single word tag
+
 ==== 21-02-2018 ====
 
 - Fixed regression in 404
