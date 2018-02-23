@@ -1,0 +1,24 @@
+{
+  "name": "dn-mvc",
+  "version": "0.1.0",
+  "description": "DN-MVC this is a personal fork of php-easysMVC ",
+  "main": "index.js",
+  "author": "Darknico",
+  "license": "GPLv3",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-css": "^0.5.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darknico/DN-MVC.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Darknico/DN-MVC/issues"
+  },
+  "homepage": "https://github.com/Darknico/DN-MVC#readme"
+}

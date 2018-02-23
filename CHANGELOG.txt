@@ -13,6 +13,8 @@
 
 ==== 23-02-2018 ====
 
+- Using Grunt to minify CSS
+- Using Grunt! inexperienced mode on
 - Added jquery
 
 ==== 22-02-2018 ====

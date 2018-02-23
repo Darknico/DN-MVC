@@ -4,7 +4,7 @@
 <html>
 <head>
 	<script type="application/javascript" src="scripts/jQuery/jquery-3.3.1.min.js"></script>
-	<link rel="stylesheet" href="styles/main.css" type="text/css" />
+	<link rel="stylesheet" href="styles/main.min.css" type="text/css" />
 	<title><?php echo $site_name ?></title>
 </head>
 <body>
