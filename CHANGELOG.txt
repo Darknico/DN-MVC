@@ -11,6 +11,10 @@
 ==== CHANGELOG ====
 ===================
 
+==== 23-02-2018 ====
+
+- Added jquery
+
 ==== 22-02-2018 ====
 
 - Manage new fallback in lang, translation and single word tag
