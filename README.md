@@ -1,6 +1,6 @@
 DN-MVC
 ==============
-This project my first project in MVC
+This is my first project in MVC
 I forked https://github.com/elrod/php-easyMVC (thanks elrod) for study and implementation personal features for my personal site.
 
 
