@@ -17,6 +17,10 @@
 	$site_url = 'http://localhost/DN-MVC';
 	$site_desc = ''; // default description
 
+	########## Copyright ##########
+	$copy = '<a href="' . $site_url . '">' . $site_name . '</a> 0.1.0 | &copy;2018 All Rights Reserved';
+
+
 
 	########## Database Configuration ##########
 	$dbms = 'mysql'; // used DBMS (used to load correct driver)

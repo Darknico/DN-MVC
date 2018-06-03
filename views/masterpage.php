@@ -3,22 +3,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script type="application/javascript" src="scripts/jQuery/jquery-3.3.1.min.js"></script>
 	<link rel="stylesheet" href="styles/main.min.css" type="text/css" />
 	<title><?php echo $site_name ?></title>
 </head>
 <body>
-	<img src="img/logo.png" alt="DN-MVC Logo" />
-	<?php $registry->router->loader();?>
+	<header>
+		<img src="img/logo.png" alt="DN-MVC Logo" />
+	</header>
 
-	<div id="jquerytest"></div>
+	<main>
+		<?php $registry->router->loader(); ?>
+	</main>
+
+	<footer>
+		<?php echo $copy; ?>
+	</footer>
 </body>
 </html>
 
-<script type="application/javascript">
-
-if (typeof jQuery != 'undefined') {
-    $("#jquerytest").html("Use jQuery version "+jQuery.fn.jquery)
-}
-
-</script>
+<script type="application/javascript" src="scripts/jQuery/jquery-3.3.1.min.js"></script>
+<script type="application/javascript" src="scripts/scripts.js"></script>
+<script type="application/javascript"> var jsdnmvc = new js_dnmvc(); </script>
