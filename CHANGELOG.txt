@@ -11,6 +11,12 @@
 ==== CHANGELOG ====
 ===================
 
+
+==== 03-06-2018 ====
+
+- Use a minified js with grunt
+- Move js in a module and review masterpage
+
 ==== 23-02-2018 ====
 
 - Using Grunt to minify CSS
