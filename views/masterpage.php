@@ -18,9 +18,12 @@
 	<footer>
 		<?php echo $copy; ?>
 	</footer>
+	
+	<!-- Scripts -->
+	<script type="application/javascript" src="scripts/jQuery/jquery-3.3.1.min.js"></script>
+	<script type="application/javascript" src="scripts/scripts.min.js"></script>
+	<script type="application/javascript"> var jsdnmvc = new js_dnmvc(); </script>	
 </body>
 </html>
 
-<script type="application/javascript" src="scripts/jQuery/jquery-3.3.1.min.js"></script>
-<script type="application/javascript" src="scripts/scripts.min.js"></script>
-<script type="application/javascript"> var jsdnmvc = new js_dnmvc(); </script>
+
