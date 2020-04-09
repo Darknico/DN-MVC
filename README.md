@@ -6,7 +6,7 @@ I forked https://github.com/elrod/php-easyMVC (thanks elrod) for study and imple
 
 License 
 ==============
-[GPL_V3](GPL_V3)
+[GPL_V3](LICENSE)
 
 Requirements
 ==============
