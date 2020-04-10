@@ -27,8 +27,8 @@ include __SITE_PATH . '/application/' . 'translationEngine.class.php';
 /* This function autoload all models in the models folder.  *
  * note that all models files name must be called using the *
  * .class.php suffix										*/
- 
-function __autoload($class_name){
+
+ spl_autoload_register(function ($class_name){
 	$filename = strtolower($class_name . '.class.php');
 	$file = __SITE_PATH . '/models/' . $filename;
 	
@@ -36,7 +36,7 @@ function __autoload($class_name){
 	if(file_exists($file) == false) return false;
 	
 	include($file);
-}
+});
 
 /* Create the registry */
 $registry = new registry;

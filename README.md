@@ -11,7 +11,7 @@ License
 Requirements
 ==============
 
-- Web-Server Apache2+ with php5+ installed
+- Web-Server Apache2+ with php5.3+ installed
 - Optional: simpleXML php5 extension enabled (Required to use the Localization System)
 - Optional: (DBMS, any would work as long you implement the db.class.php abstract class), by default "mysqli" is supported
 
