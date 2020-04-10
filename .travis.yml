@@ -11,8 +11,7 @@ php:
   - 7.3
   - 7.4
   
-install:
-    - composer install
+install: php vendor/vendors.php
 
 notifications:
 email: false
